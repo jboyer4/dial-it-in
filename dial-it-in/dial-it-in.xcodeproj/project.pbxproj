@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CF13797290DBF66006F4E52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF13796290DBF66006F4E52 /* AppDelegate.swift */; };
+		3CF13799290DBF66006F4E52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF13798290DBF66006F4E52 /* SceneDelegate.swift */; };
+		3CF1379B290DBF66006F4E52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF1379A290DBF66006F4E52 /* ViewController.swift */; };
+		3CF1379E290DBF66006F4E52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1379C290DBF66006F4E52 /* Main.storyboard */; };
+		3CF137A0290DBF6A006F4E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF1379F290DBF6A006F4E52 /* Assets.xcassets */; };
+		3CF137A3290DBF6A006F4E52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF137A1290DBF6A006F4E52 /* LaunchScreen.storyboard */; };
+		3CF137AE290DBF6B006F4E52 /* dial_it_inTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF137AD290DBF6B006F4E52 /* dial_it_inTests.swift */; };
+		3CF137B8290DBF6B006F4E52 /* dial_it_inUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF137B7290DBF6B006F4E52 /* dial_it_inUITests.swift */; };
+		3CF137BA290DBF6B006F4E52 /* dial_it_inUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF137B9290DBF6B006F4E52 /* dial_it_inUITestsLaunchTests.swift */; };
+		3CF137C7290DCE38006F4E52 /* brewOptions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF137C6290DCE38006F4E52 /* brewOptions.storyboard */; };
+		3CF137C9290DDA11006F4E52 /* brewing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF137C8290DDA11006F4E52 /* brewing.storyboard */; };
+		3CF137CB290DE3F2006F4E52 /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF137CA290DE3F2006F4E52 /* Results.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF137AA290DBF6B006F4E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF1378B290DBF66006F4E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF13792290DBF66006F4E52;
+			remoteInfo = "dial-it-in";
+		};
+		3CF137B4290DBF6B006F4E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF1378B290DBF66006F4E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF13792290DBF66006F4E52;
+			remoteInfo = "dial-it-in";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CF13793290DBF66006F4E52 /* dial-it-in.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dial-it-in.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF13796290DBF66006F4E52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF13798290DBF66006F4E52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CF1379A290DBF66006F4E52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CF1379D290DBF66006F4E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF1379F290DBF6A006F4E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF137A2290DBF6A006F4E52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF137A4290DBF6A006F4E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF137A9290DBF6B006F4E52 /* dial-it-inTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dial-it-inTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF137AD290DBF6B006F4E52 /* dial_it_inTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dial_it_inTests.swift; sourceTree = "<group>"; };
+		3CF137B3290DBF6B006F4E52 /* dial-it-inUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dial-it-inUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF137B7290DBF6B006F4E52 /* dial_it_inUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dial_it_inUITests.swift; sourceTree = "<group>"; };
+		3CF137B9290DBF6B006F4E52 /* dial_it_inUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dial_it_inUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CF137C6290DCE38006F4E52 /* brewOptions.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = brewOptions.storyboard; sourceTree = "<group>"; };
+		3CF137C8290DDA11006F4E52 /* brewing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = brewing.storyboard; sourceTree = "<group>"; };
+		3CF137CA290DE3F2006F4E52 /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF13790290DBF66006F4E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137A6290DBF6B006F4E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137B0290DBF6B006F4E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CF1378A290DBF66006F4E52 = {
+			isa = PBXGroup;
+			children = (
+				3CF13795290DBF66006F4E52 /* dial-it-in */,
+				3CF137AC290DBF6B006F4E52 /* dial-it-inTests */,
+				3CF137B6290DBF6B006F4E52 /* dial-it-inUITests */,
+				3CF13794290DBF66006F4E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF13794290DBF66006F4E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF13793290DBF66006F4E52 /* dial-it-in.app */,
+				3CF137A9290DBF6B006F4E52 /* dial-it-inTests.xctest */,
+				3CF137B3290DBF6B006F4E52 /* dial-it-inUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF13795290DBF66006F4E52 /* dial-it-in */ = {
+			isa = PBXGroup;
+			children = (
+				3CF13796290DBF66006F4E52 /* AppDelegate.swift */,
+				3CF13798290DBF66006F4E52 /* SceneDelegate.swift */,
+				3CF1379A290DBF66006F4E52 /* ViewController.swift */,
+				3CF1379C290DBF66006F4E52 /* Main.storyboard */,
+				3CF1379F290DBF6A006F4E52 /* Assets.xcassets */,
+				3CF137A1290DBF6A006F4E52 /* LaunchScreen.storyboard */,
+				3CF137A4290DBF6A006F4E52 /* Info.plist */,
+				3CF137C6290DCE38006F4E52 /* brewOptions.storyboard */,
+				3CF137C8290DDA11006F4E52 /* brewing.storyboard */,
+				3CF137CA290DE3F2006F4E52 /* Results.storyboard */,
+			);
+			path = "dial-it-in";
+			sourceTree = "<group>";
+		};
+		3CF137AC290DBF6B006F4E52 /* dial-it-inTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF137AD290DBF6B006F4E52 /* dial_it_inTests.swift */,
+			);
+			path = "dial-it-inTests";
+			sourceTree = "<group>";
+		};
+		3CF137B6290DBF6B006F4E52 /* dial-it-inUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF137B7290DBF6B006F4E52 /* dial_it_inUITests.swift */,
+				3CF137B9290DBF6B006F4E52 /* dial_it_inUITestsLaunchTests.swift */,
+			);
+			path = "dial-it-inUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF13792290DBF66006F4E52 /* dial-it-in */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF137BD290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-in" */;
+			buildPhases = (
+				3CF1378F290DBF66006F4E52 /* Sources */,
+				3CF13790290DBF66006F4E52 /* Frameworks */,
+				3CF13791290DBF66006F4E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dial-it-in";
+			productName = "dial-it-in";
+			productReference = 3CF13793290DBF66006F4E52 /* dial-it-in.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF137A8290DBF6B006F4E52 /* dial-it-inTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF137C0290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-inTests" */;
+			buildPhases = (
+				3CF137A5290DBF6B006F4E52 /* Sources */,
+				3CF137A6290DBF6B006F4E52 /* Frameworks */,
+				3CF137A7290DBF6B006F4E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF137AB290DBF6B006F4E52 /* PBXTargetDependency */,
+			);
+			name = "dial-it-inTests";
+			productName = "dial-it-inTests";
+			productReference = 3CF137A9290DBF6B006F4E52 /* dial-it-inTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF137B2290DBF6B006F4E52 /* dial-it-inUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF137C3290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-inUITests" */;
+			buildPhases = (
+				3CF137AF290DBF6B006F4E52 /* Sources */,
+				3CF137B0290DBF6B006F4E52 /* Frameworks */,
+				3CF137B1290DBF6B006F4E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF137B5290DBF6B006F4E52 /* PBXTargetDependency */,
+			);
+			name = "dial-it-inUITests";
+			productName = "dial-it-inUITests";
+			productReference = 3CF137B3290DBF6B006F4E52 /* dial-it-inUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF1378B290DBF66006F4E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3CF13792290DBF66006F4E52 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3CF137A8290DBF6B006F4E52 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3CF13792290DBF66006F4E52;
+					};
+					3CF137B2290DBF6B006F4E52 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3CF13792290DBF66006F4E52;
+					};
+				};
+			};
+			buildConfigurationList = 3CF1378E290DBF66006F4E52 /* Build configuration list for PBXProject "dial-it-in" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF1378A290DBF66006F4E52;
+			productRefGroup = 3CF13794290DBF66006F4E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF13792290DBF66006F4E52 /* dial-it-in */,
+				3CF137A8290DBF6B006F4E52 /* dial-it-inTests */,
+				3CF137B2290DBF6B006F4E52 /* dial-it-inUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF13791290DBF66006F4E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF137A3290DBF6A006F4E52 /* LaunchScreen.storyboard in Resources */,
+				3CF137C7290DCE38006F4E52 /* brewOptions.storyboard in Resources */,
+				3CF137A0290DBF6A006F4E52 /* Assets.xcassets in Resources */,
+				3CF137CB290DE3F2006F4E52 /* Results.storyboard in Resources */,
+				3CF1379E290DBF66006F4E52 /* Main.storyboard in Resources */,
+				3CF137C9290DDA11006F4E52 /* brewing.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137A7290DBF6B006F4E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137B1290DBF6B006F4E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF1378F290DBF66006F4E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF1379B290DBF66006F4E52 /* ViewController.swift in Sources */,
+				3CF13797290DBF66006F4E52 /* AppDelegate.swift in Sources */,
+				3CF13799290DBF66006F4E52 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137A5290DBF6B006F4E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF137AE290DBF6B006F4E52 /* dial_it_inTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF137AF290DBF6B006F4E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF137BA290DBF6B006F4E52 /* dial_it_inUITestsLaunchTests.swift in Sources */,
+				3CF137B8290DBF6B006F4E52 /* dial_it_inUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF137AB290DBF6B006F4E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF13792290DBF66006F4E52 /* dial-it-in */;
+			targetProxy = 3CF137AA290DBF6B006F4E52 /* PBXContainerItemProxy */;
+		};
+		3CF137B5290DBF6B006F4E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF13792290DBF66006F4E52 /* dial-it-in */;
+			targetProxy = 3CF137B4290DBF6B006F4E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF1379C290DBF66006F4E52 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF1379D290DBF66006F4E52 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF137A1290DBF6A006F4E52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF137A2290DBF6A006F4E52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF137BB290DBF6B006F4E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF137BC290DBF6B006F4E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF137BE290DBF6B006F4E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dial-it-in/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF137BF290DBF6B006F4E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dial-it-in/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-in";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF137C1290DBF6B006F4E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dial-it-in.app/dial-it-in";
+			};
+			name = Debug;
+		};
+		3CF137C2290DBF6B006F4E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-inTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dial-it-in.app/dial-it-in";
+			};
+			name = Release;
+		};
+		3CF137C4290DBF6B006F4E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dial-it-in";
+			};
+			name = Debug;
+		};
+		3CF137C5290DBF6B006F4E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "mobile-dev-class.dial-it-inUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dial-it-in";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF1378E290DBF66006F4E52 /* Build configuration list for PBXProject "dial-it-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF137BB290DBF6B006F4E52 /* Debug */,
+				3CF137BC290DBF6B006F4E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF137BD290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-in" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF137BE290DBF6B006F4E52 /* Debug */,
+				3CF137BF290DBF6B006F4E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF137C0290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-inTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF137C1290DBF6B006F4E52 /* Debug */,
+				3CF137C2290DBF6B006F4E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF137C3290DBF6B006F4E52 /* Build configuration list for PBXNativeTarget "dial-it-inUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF137C4290DBF6B006F4E52 /* Debug */,
+				3CF137C5290DBF6B006F4E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF1378B290DBF66006F4E52 /* Project object */;
+}
